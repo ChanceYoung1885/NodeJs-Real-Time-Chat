@@ -121,3 +121,69 @@ flex-direction: column;
   width: 0px;
   background: transparent; /* make scrollbar transparent */
 }
+
+
+/* Nav css */
+
+#user-nav {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 5vw;
+  height: 6vh;
+  background-color: #464B37;
+}
+
+#site-nav {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 5vw;
+  background-color: #262B15;
+}
+
+#message-list {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  top: 6vh;
+  left: 5vw;
+}
+
+#message-list.hidden {
+  display: none;
+}
+
+#conversation-list {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  top: 6vh;
+  left: 5vw;
+}
+
+#conversation-list.hidden {
+  display: none;
+}
+
+
+.sideNavIcon {
+  width: 3rem;
+}
+
+.mainNavIcon {
+  width: 3rem;
+  float: right;
+}
+
+#app-search {
+  float: left;
+  margin: 15px;
+}
+
+#app-logo {
+  bottom: auto;
+}
