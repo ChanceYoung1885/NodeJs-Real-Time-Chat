@@ -4,8 +4,6 @@ import App, { SiteNav, UserNav } from './App.jsx'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
     <>
-    <UserNav />
-    <SiteNav />
     <App />
     </>
 )

@@ -12,7 +12,10 @@ function App() {
   if (!user) {
     return <AuthPage onAuth={(user) => setUser(user)} />;
   } else {
-    return <ChatsPage user={user} />;
+    return (<>
+    {/* <UserNav />
+    <SiteNav /> */}
+    <ChatsPage user={user} /></>)
   }
 }
 
